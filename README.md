@@ -42,7 +42,7 @@ The main purpose is to introduce how to implement the essential elements in web 
   `docker run -d -p 5000:5000 -t -i <image-name>`
   Replace the image-name with the name you've given to your image.
   
-- Or you can just pull the image from my [Dockerhub](https://hub.docker.com/r/varunghost/flask-blog). 
+- Or you can just pull the image from my [Dockerhub](https://hub.docker.com/r/varunghost/flask-blog) with command `docker pull varunghost/flask-blog:firsttry` 
   Now use this image to create and start the docker container.
   
   In both cases you can go to https://localhost:5000 to access the flask-app.
