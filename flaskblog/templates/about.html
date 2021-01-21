@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">About</h1>
+        <p class="lead">This is a blog site made with flask.</p>
+        <hr class="my-4">
+        <p>The app is capable of performing CRUD operations and many more. Please use the site and explore it's full functionality!<br>
+            I am open to any suggestions. Please feel free to drop new ideas to improve the app :)</p>
+        <a class="btn btn-primary btn-lg" href="{{url_for('main.home')}}" role="button">Explore!</a>
+    </div>
+    <!-- <h1>About Page</h1>
+    <p>
+        This is a blog site made with flask.<br>
+        The app is capable of performing CRUD operations and many more. Please use the site and explore it's full functionality!<br>
+        I am open to any suggestions. Please feel free to drop new ideas to improve the app :)
+    </p> -->
+
+{% endblock content %}
