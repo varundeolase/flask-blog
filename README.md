@@ -63,9 +63,11 @@ There are three tabs in this toy app
 
 - **Register**: Register page.
 
-- **New Post**: If loggen in, this will allow user to post.
+- **New Post**: If logged in, this will allow user to post.
 
-- **Account**: If logged in, Will show account details and an option to change profile picture.
+- **Account**: If logged in, will show account details and an option to change profile picture.
+
+- **SideBar**: Consists of three collapsable cards.
 
 
 A few accounts were set for testing, like ***obi-wan*** , ***vader***, etc. You can also delete or add accounts.
